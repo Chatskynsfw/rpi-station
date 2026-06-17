@@ -15,7 +15,7 @@ if len(sys.argv) > 3:
 
 try:
     tn = telnetlib.Telnet(host, port)
-    command = f"@{id} M 0\r\n"
+    command = f"@{id} M 3\r\n"
     tn.write(command.encode('ascii'))
     time.sleep(3)
     data = tn.read_very_eager().decode('ascii')
