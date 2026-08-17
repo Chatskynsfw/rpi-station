@@ -118,10 +118,10 @@ class initrzdMasMupDo04DtvImSortRail extends Command
         ]);
 
         \App\ftpClient::create([
-          "host" => '217.175.154.119',
+          "host" => '37.140.192.116',
           "port" => 21,
-          "login" => "userzd",
-          "password" => "userzd",
+          "login" => "u3040031_vniizht",
+          "password" => "dW7uR9hZ6wsX7xP0",
           "station_id" => $this->option('set_id')
         ]);
     }
